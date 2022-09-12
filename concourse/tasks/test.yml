@@ -13,6 +13,8 @@ inputs:
   optional: true
 - name: ambari_env_files
   optional: true
+- name: pxf_gp7_headerfile
+  optional: true
 
 params:
   ACCESS_KEY_ID:
