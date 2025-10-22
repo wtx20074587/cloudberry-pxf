@@ -106,7 +106,7 @@ export GPHOME=/usr/local/cloudberry-db
 export PXF_HOME=/usr/local/pxf
 export PXF_BASE=${HOME}/pxf-base
 chown -R gpadmin:gpadmin "${GPHOME}" "${PXF_HOME}"
-make -C ~/workspace/pxf install
+make -C ~/workspace/cloudberry-db install
 ```
 
 NOTE: if `PXF_BASE` is not set, it will default to `PXF_HOME`, and server configurations, libraries or other configurations, might get deleted after a PXF re-install.
